@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* base styles */
+* {
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px ;
+  /* color: #f1356d; */
+  color: #f35295;
+}
+
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 48px;
+  text-align: center;
+  color: #f35295;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 36px;
+  text-align: center;
+  color: #f35295;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: #F572A8; 
+  padding: 0.5rem 1.5rem;    
+  color: #F9E5C7 !important; 
+
+  
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f1356d; 
+}

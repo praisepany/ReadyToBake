@@ -1,0 +1,256 @@
+{
+  "menus": [
+    {
+      "name": "Soft Chocolate Chip Cookies",
+      "body": "A timeless bakery favorite, chocolate chip cookies are made with a buttery dough that balances sweetness and richness perfectly. The cookies bake into a golden-brown round with crispy edges and a soft, chewy center. Each bite is filled with melting chocolate chips that create a comforting and nostalgic flavor. They are simple, warm, and universally loved—perfect as a snack, dessert, or paired with milk.",
+      "price":"250",
+      "time":"90",
+      "rating": 5,
+      "calories":"400",
+      "ingredients": [
+        "unsalted butter",
+        "brown sugar",
+        "sugar",
+        "egg",
+        "vanilla",
+        "all purpose powder",
+        "baking powder",
+        "baking soda",
+        "salt",
+        "dark chocolate chips"
+      ],
+      "utensils": [
+        "mixing bowl",
+        "whisk",
+        "silicone spatula",
+        "baking sheet",
+        "parchment paper",
+        "measuring cups and spoons",
+        "cooling rack"
+      ],
+      "srcpic":"/data/picture/SoftCookie.png",
+      "id": 1
+    },
+    {
+      "name": "Brownie",
+      "body": "Brownies are a decadent dessert bar known for their dense, fudgy interior and rich chocolate flavor. Made from melted chocolate, butter, eggs, and sugar, brownies offer a deep cocoa taste and a slightly crisp, crackly top. They can be enjoyed plain or enhanced with toppings like walnuts, chocolate chunks, or caramel swirls. Brownies appeal to chocolate lovers who crave a moist, indulgent treat with a melt-in-your-mouth texture.",
+      "price": "250",
+      "time":"30",
+      "rating": 4,
+      "calories":"500",
+      "ingredients": [
+        "unsalted butter",
+        "brown sugar",
+        "sugar",
+        "egg",
+        "vanilla",
+        "all purpose powder",
+        "baking powder",
+        "baking soda",
+        "salt",
+        "dark chocolate chips"
+      ],
+      "utensils": [
+        "mixing bowl",
+        "whisk",
+        "spatula",
+        "8x8 or 9x9 baking pan",
+        "parchment paper",
+        "measuring cups and spoons"
+      ],
+      "srcpic":"/data/picture/Brownie.png",
+      "id": 2
+    },
+    {
+      "name": "Dubai Chocolate",
+      "body": "Dubai-style chocolate dates are a luxurious Middle Eastern confection. Each piece features a naturally sweet date carefully pitted and filled with nuts such as almonds or pistachios. The filled date is then coated in a smooth layer of high-quality chocolate. These treats are known for their rich, elegant flavor profile—combining caramel-like sweetness from the date, crunch from the nut, and creaminess from the chocolate. Popular as gifts and festive snacks, they represent premium craftsmanship and indulgence.",
+      "price": "500",
+      "time":"60",
+      "rating": 5,
+      "calories":"400",
+      "ingredients": [
+        "large Medjool dates",
+        "pistachios or almonds",
+        "pistachio cream or butter",
+        "high-quality milk or dark chocolate",
+        "edible gold leaf (optional)"
+      ],
+      "utensils": [
+        "paring knife",
+        "double boiler or microwave-safe bowl",
+        "dipping fork or skewer",
+        "parchment paper",
+        "baking tray"
+      ],
+      "srcpic":"/data/picture/DubaiChoc.png",
+      "id": 3
+    },
+    {
+       "name": "Basque Burnt Cheesecake",
+      "body": "The Basque Burnt Cheesecake is a rustic, crustless dessert famous for its dark, caramelized exterior and creamy, custard-like interior. Baked at a high temperature, the top becomes beautifully burnt and cracked, creating a bittersweet contrast that complements the rich cream cheese filling. Despite its simple ingredients—cream cheese, sugar, eggs, and heavy cream—it delivers a deep, sophisticated flavor. Its texture is silky and melt-in-your-mouth, making it a standout cheesecake style.",
+      "price": "600",
+      "time":"60",
+      "rating": 5,
+      "calories":"1000",
+      "ingredients": [
+        "cream cheese",
+        "heavy whipping cream",
+        "granulated sugar",
+        "eggs",
+        "cake flour or all-purpose flour",
+        "vanilla extract",
+        "salt"
+      ],
+      "utensils": [
+        "springform pan (6 or 8 inch)",
+        "parchment paper",
+        "stand mixer or hand mixer",
+        "large mixing bowl",
+        "silicone spatula"
+      ],
+      "srcpic":"/data/picture/Cheesecake.png",
+      "id": 4
+    },
+    {
+      "name": "Banoffee",
+      "body": "Banoffee is a creamy, layered dessert that combines buttery biscuit crust, smooth caramel or toffee, fresh bananas, and soft whipped cream. Each layer brings a different sensation: the crunch of the base, the sweetness of the caramel, the fruitiness of ripe bananas, and the lightness of the cream. Often topped with cocoa powder or chocolate shavings, banoffee delivers a rich yet refreshing balance of flavors. It is a no-bake dessert that feels indulgent, comforting, and satisfying.",
+      "price": "300",
+      "time":"20",
+      "rating": 4,
+      "calories":"350",
+      "ingredients": [
+        "digestive biscuits or graham crackers",
+        "unsalted butter",
+        "dulce de leche or caramel sauce",
+        "ripe bananas",
+        "heavy whipping cream",
+        "cocoa powder or chocolate shavings"
+      ],
+      "utensils": [
+        "pie dish or tart pan",
+        "food processor or rolling pin",
+        "hand mixer",
+        "mixing bowl",
+        "spatula",
+        "knife"
+      ],
+      "srcpic":"/data/picture/Banoffee.png",
+      "id": 5
+    },
+    {
+      "name": "Macaron",
+      "body": "Macarons are delicate French almond meringue cookies that sandwich a flavorful filling such as buttercream, ganache, or fruit jam. Their smooth, shiny shell and iconic “feet” make them visually elegant, while their texture blends crispness and chewiness. Each macaron can carry unique flavor combinations—from classic vanilla and chocolate to fruity, floral, and seasonal varieties. Macarons are known for their precision and artistry, making them a premium bakery item.",
+      "price": "350",
+      "time":"90",
+      "rating": 5,
+      "calories":"500",
+      "ingredients": [
+        "almond flour",
+        "powdered sugar",
+        "egg whites",
+        "granulated sugar",
+        "gel food coloring",
+        "buttercream or ganache filling"
+      ],
+      "utensils": [
+        "kitchen scale",
+        "food processor",
+        "fine mesh sieve",
+        "stand mixer or electric hand mixer",
+        "silicone spatula",
+        "piping bags with round tips",
+        "baking sheet",
+        "silicone baking mat or parchment paper"
+      ],
+      "srcpic":"/data/picture/Macaron.png",
+      "id": 6
+    },
+    {
+      "name": "Steamed Pandan Layered Cake",
+      "body": "Khanom Chan is a traditional Thai dessert made by steaming multiple thin layers of tapioca flour, rice flour, coconut milk, and pandan juice. Its bright green color and subtle pandan aroma make it both beautiful and fragrant. Each layer is soft, chewy, and slightly sticky, offering a playful, peel-apart eating experience. The flavor is mildly sweet and coconut-rich, making it a nostalgic dessert often enjoyed at celebrations and festivals.",
+      "price": "250",
+      "time":"40",
+      "rating": 4,
+      "calories":"250",
+      "ingredients": [
+        "tapioca flour",
+        "rice flour",
+        "arrowroot flour",
+        "coconut milk",
+        "granulated sugar",
+        "fresh pandan leaves or pandan extract",
+        "water"
+      ],
+      "utensils": [
+        "steamer pot",
+        "mixing bowls",
+        "whisk",
+        "fine mesh strainer",
+        "heatproof steaming tray or silicone molds",
+        "ladle"
+      ],
+      "srcpic":"/data/picture/KanomChan.png",
+      "id": 7
+    },
+     {
+      "name": "Bua Loi",
+      "body": "Bua Loi is a warm Thai dessert consisting of small, colorful rice flour balls served in creamy coconut milk. The chewy balls—often naturally colored with taro, pumpkin, or pandan—float in a fragrant, lightly sweetened coconut broth. Sometimes an egg is added (Bua Loi Kai Wan) for extra richness. The dessert is comforting, warm, and smooth, offering a blend of textures and flavors that feel both traditional and homey.",
+      "price": "250",
+      "time":"60",
+      "rating": 5,
+      "calories":"350",
+      "ingredients": [
+        "glutinous rice flour",
+        "mashed taro",
+        "mashed pumpkin",
+        "pandan juice",
+        "water",
+        "coconut milk",
+        "palm sugar",
+        "white sugar",
+        "salt"
+      ],
+      "utensils": [
+        "mixing bowls",
+        "cooking pot (for boiling dough)",
+        "saucepan (for coconut broth)",
+        "slotted spoon",
+        "serving bowls"
+      ],
+      "srcpic":"/data/picture/BuaLoi.png",
+      "id": 8
+    },
+    {
+      "name": "Intanin",
+      "body": "Inspired by popular drinks from the Inthanin café chain, the Intanin-style iced chocolate is a refreshing beverage made from cocoa powder, milk, and sweet syrup. It has a deep chocolate flavor balanced with creaminess and sweetness, served over ice for a cool and energizing experience. The drink is smooth, rich, and satisfying—ideal for chocolate lovers looking for a quick and refreshing treat.",
+      "price": "250",
+      "time":"60",
+      "rating": 3,
+      "calories":"300",
+      "ingredients": [
+        "premium cocoa powder",
+        "sweetened condensed milk",
+        "evaporated milk or fresh milk",
+        "hot water",
+        "ice cubes"
+      ],
+      "utensils": [
+        "tall serving glass",
+        "long stirring spoon",
+        "small whisk or milk frother",
+        "measuring spoons",
+        "mixing cup"
+      ],
+      "srcpic":"/data/picture/Intanin.png",
+      "id": 9
+    }
+  ],
+
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "123",
+      "id": "admin@gmail.com"
+    }
+  ]
+}
