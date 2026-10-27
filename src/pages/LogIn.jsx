@@ -4,7 +4,7 @@
 // import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 
 import { useState } from "react";
-
+import db from "../../data/db.json";
 
 const LogIn = () => {
 
@@ -12,20 +12,30 @@ const LogIn = () => {
     const [password, setPassword] = useState('');
 
     const handleLogin = async (e) => {
+        e.preventDefault();
         try {
-            e.preventDefault();
-            const res = await fetch('http://localhost:8000/users/' + email);
-            const users = await res.json()
+            let user = null;
+            try {
+                const res = await fetch('http://localhost:8000/users/' + email);
+                if (res.ok) {
+                    user = await res.json();
+                }
+            } catch {
+                // Fallback to local mock data
+                user = db.users.find((u) => u.email === email);
+            }
+
+            if (!user) {
+                user = db.users.find((u) => u.email === email);
+            }
     
-            if (users.password == password) {
-                alert("Yay!!")
+            if (user && user.password === password) {
+                alert("Yay!!");
+            } else {
+                alert("Login failed!!");
             }
-            else {
-                alert("Login failed!!")
-            }
-        }
-        catch {
-            console.log("Fetch failed.")
+        } catch {
+            alert("Login failed!!");
         }
     }
 

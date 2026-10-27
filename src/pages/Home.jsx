@@ -1,15 +1,9 @@
-import useFetch from './useFetch';
 import { Link } from 'react-router-dom';
-import homeDessert from './assets/HomeDessert.png';
-
+import homeDessert from '../assets/HomeDessert.png';
 
 const Home = () => {
-    const {data : menus, isLoading, error} = useFetch('http://localhost:8000/menus');
-
     return ( 
         <div className="home">
-            {error && <div>Could not fetch data for that resource</div>}
-            {isLoading && <div>Loading...</div>}
             <h2 className="text-[48px] text-[#F34C9D] font-['Corben'] flex justify-center ">Make your own favorite dessert with us</h2> 
             <Link to ="/menus" className="flex justify-center pb-10">
                 <button type="button">

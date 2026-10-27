@@ -1,5 +1,5 @@
-import useFetch from './useFetch';
-import MenuList from './MenuList';
+import useFetch from '../hooks/useFetch';
+import MenuList from '../components/MenuList';
 
 const Menu = () => {
     const {data : menus, isLoading, error} = useFetch('http://localhost:8000/menus');

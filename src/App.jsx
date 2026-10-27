@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './Navbar';
-import Home from './Home';
-import Menu from "./Menu";
-import MenuDetails from './MenuDetails';
-import LogIn from './LogIn';
-import Cart from './Cart';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Menu from './pages/Menu';
+import MenuDetails from './pages/MenuDetails';
+import LogIn from './pages/LogIn';
+import Cart from './pages/Cart';
 
 function App() {
 
